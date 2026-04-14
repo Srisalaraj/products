@@ -17,5 +17,5 @@ const db=common.URL
 mongoose.connect(db)
 
 app.listen(port,()=>{
-    console.log("server started at",port);
+    console.log("server started at",port,"number");
 })
