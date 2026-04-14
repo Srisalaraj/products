@@ -4,7 +4,7 @@ const { postDetails, getDetails, updateDetails, deleteDetails } = require("../co
 const routes=express.Router()
 
 routes.post("/product",postDetails)
-routes.get("/product",getDetails)
+routes.get("/getproduct",getDetails)
 routes.put("/product/:id",updateDetails)
 routes.delete("/product/:id",deleteDetails)
 
